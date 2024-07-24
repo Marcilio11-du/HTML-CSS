@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste de hover</title>
+    <style>
+        body {
+            font-family: sans-serif;
+        }
+
+        div > p {
+            display: none;
+        }
+
+
+        div:hover > p {
+            display: block;
+        }
+
+        div:hover {
+            color:blue ;
+            transition: 1s;
+        }
+    </style>
+</head>
+<body>
+    <h1>Exemplo de hover</h1>
+    <p>
+       PASSE O MOUSE SOBRE O TEXTO ABAIXO 
+    </p>
+    <div>
+        PASSE O MOUSE
+        <p>Texto apareceu</p>
+    </div>
+    
+</body>
+</html>

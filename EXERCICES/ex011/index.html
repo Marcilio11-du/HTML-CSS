@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML5</title>
+</head>
+<body>
+
+    <h1>Imagens Dinâmicas</h1>
+
+    <p>
+        Tente alterar o tamanho do seu navegador ou usar este site em dispositivos de tamanhos diferentes
+    </p>
+    
+    <picture>
+        <source media="(max-width: 750px )" srcset="img/pequena.png" type="image/png">
+        <source media="(max-width: 1050px )" srcset="img/media.png" type="image/png">
+        <img src="img/grande.png" alt="Imagem flexível">
+    </picture>
+
+    <h1>
+        Reproduzindo áudio em HTML5
+    </h1>
+
+    <p>
+        Ouça agora os Worderland Cover
+    </p>
+    <h3>
+        Primeira forma de incluir áudio dentro do documento
+    </h3>
+
+    <audio src="mídias/12_Songs_in_1_Beat_-_Left_And_Right_Mashup(128k).m4a" controls autoplay></audio> <br>
+
+    <h3>
+        Segunda forma de incluir áudio dentro do documento
+    </h3>
+
+    <audio preload="metadata" controls autoplay loop>
+        <source src="mídias/BTS_(방탄소년단)_MashUp!!__The_Wonderland(128k).m4a" type="audio/mp4">
+    </audio>
+
+</body>
+</html>

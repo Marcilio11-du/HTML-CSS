@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 006</title>
+    <style>
+        abbr {
+            text-decoration: 0;
+        }
+        
+        button:hover {
+            background-color: rgb(87, 83, 83);
+        }
+        button {
+            margin-left: 15px;
+            padding: 15px;
+            border: 0;
+            border-radius: 30px;
+            color: rgb(15, 13, 13);
+            position: fixed;
+            background-color: white;
+            transition: 0.5s;
+            box-shadow:  0 1px 0 1px
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Tags HTML5</h1>
+
+    <p id="paragrado">Em HTML5  podemos usar tags vários elementos de marcação. Passe o mouse por cima dos elementos abaixo para saber qual tag exerce a função de cada um dos elementos:</p>
+    <ul>
+        <li><abbr title="&lt;img&gt; &lt;/img&gt;">Imagens</abbr></li>
+        <li><abbr title="&lt;p&gt; &lt;/p&gt;">Parágrafo</abbr></li>
+        <li><abbr title="&lt;strong&gt; &lt;/strong&gt;">Destaque</abbr></li>
+        <li><abbr title="&lt;br&gt;">Quebra de Linha</abbr></li>
+        <li><abbr title="&lt;blockquote&gt; &lt;/blockquote&gt;">Citações</abbr></li>
+        <li><abbr title="&lt;a&gt; &lt;/a&gt;">Links</abbr></li>
+    </ul>
+
+    <div>
+        <button onclick="mudar()">Clicar</button>
+    </div>
+    
+
+    <script>
+
+        
+        function mudar() {
+            var par = document.querySelector('p#paragrado')
+            par.innerHTML = 'Parágrafo mudado com sucesso';
+        }
+
+    </script>
+    
+</body>
+</html>
