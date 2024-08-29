@@ -29,8 +29,8 @@ header  h1 {
     padding-top: 60px;
     font-variant: small-caps;
     font-family: var(--font1);
-    font-size: 10vw;
-    max-width: 700px;
+    font-size: 8vw;
+
 }
 header p {
     padding-bottom: 60px;
@@ -52,11 +52,13 @@ section p {
     line-height: 2em;
     padding-left: 30px;
     font-family: var(--font2);
-    font-size: 2.8vw;
+    font-size: 2.7vw;
 }
 .img p {
     background-color: rgba(0, 0, 0, 0.16);
     width: 300px;
+    display: inline-block;
+    padding: 5px;
 }
 .img {
     background-color: rgb(130, 130, 99);
