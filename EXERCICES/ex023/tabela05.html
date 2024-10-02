@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício de tabela</title>
+    <style> 
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        table {
+            border-collapse: collapse;
+        }
+        td,th {
+            border: 1px solid black;
+            padding: 5px;
+            width: 70px;
+        }
+
+        .nome, .idade {
+            background-color: antiquewhite;
+        }
+        .sexo, .prof{
+            background-color: bisque;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>
+        Exercício de tabela
+    </h1>
+    <table>
+        <colgroup>
+            <col class="nome">
+            <col class="sexo">
+            <col class="idade">
+            <col class="prof">
+        </colgroup>
+        <caption>Cadastro</caption>
+        <tr>
+            <th scope="col">Nome</th>
+            <th scope="col">Sexo</th>
+            <th scope="col">Idade</th>
+            <th scope="col">Profissão(Ocupação)</th>
+        </tr>
+        <tr>
+            <td>Neil Dias</td>
+            <td>M</td>
+            <td>17</td>
+            <td>Estudande</td>
+        </tr>
+        <tr>
+            <td>Alberto Tchipilica</td>
+            <td>M</td>
+            <td>16</td>
+            <td>Estudante</td>
+        </tr>
+        <tr>
+            <td>Ana Fernando</td>
+            <td>F</td>
+            <td>38</td>
+            <td>Gestora de Recursos Humanos</td>
+        </tr>
+        <tr>
+            <td>António Domingos</td>
+            <td>M</td>
+            <td>51</td>
+            <td>Professor</td>
+        </tr>
+    </table>
+    
+</body>
+</html>
